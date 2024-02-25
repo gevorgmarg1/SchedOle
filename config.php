@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('db5015427713.hosting-data.io', 'dbu5532747', 'Markos0817', 'dbs12624409');
+$db = mysqli_connect('host', 'username', 'password', 'database');
 mysqli_set_charset($db, "utf8mb4");
 session_start();
 date_default_timezone_set("America/Chicago");
